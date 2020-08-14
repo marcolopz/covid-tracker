@@ -113,7 +113,7 @@ function App() {
         <CardContent>
           <h3 className="app__tableTitle">Casos por país</h3>
           <Table countries={tableData} /> 
-          <h3 className="app__graphTitle">Casos nuevos a nivel mundial {casesType}</h3>
+          <h3 className="app__graphTitle">{casesType==="cases"? 'Casos': casesType==="recovered"? "Recuperados":"Muertes"} a nivel mundial</h3>
           <LineGraph className="app__graph" casesType={casesType}/>
         </CardContent>
         
