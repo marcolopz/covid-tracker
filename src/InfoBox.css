@@ -1,0 +1,37 @@
+.infoBox {
+    flex:1;
+    cursor: pointer;
+}
+.MuiPaper-root.MuiCard-root {
+    background: #303030;
+}
+.infoBox:not(:last-child) {
+    margin-right:15px;
+}
+.infoBox--selected {
+    border-top: 10px solid greenyellow;
+}
+.infoBox--red {
+    border-color: red;
+}
+.infoBox__cases--green {
+    color: lightgreen !important;
+}
+.infoBox__cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+.infoBox__total {
+    color: whitesmoke !important;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    margin-bottom: 15px !important;
+    text-align: center;
+}
+.infoBox__title {
+    color:whitesmoke !important;
+    text-align: center;
+}
